@@ -1,0 +1,9 @@
+# -*- coding: utf-8 -*- 
+
+if true then
+  puts "true is true"
+end
+
+if false then
+  puts "false is false"
+end
