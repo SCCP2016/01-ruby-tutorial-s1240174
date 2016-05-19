@@ -3,22 +3,22 @@ loop{
   a = a.to_i
   b = b.to_i
 
-  case op
-  when "+"
-   puts a + b
+  if op=="?" then
+    break
+  else
+    puts(case op
+       when "+"
+         a + b
 
-  when "-"
-  puts a - b
+       when "-"
+         a - b
  
-  when "*" 
-   puts a * b
+       when "*" 
+         a * b
 
-  when "/" 
-   puts a / b
-  
-  else  
-       
-   break
+       when "/" 
+         a / b
+       end)
 
   end
 

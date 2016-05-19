@@ -1,0 +1,5 @@
+H,W = STDIN,gets,split
+ H = H.to_i
+ W = W.to_i
+
+if
