@@ -1,0 +1,6 @@
+
+
+(1..10).select{|zyou| zyou % 2 == 0}
+
+  zyou**2
+end

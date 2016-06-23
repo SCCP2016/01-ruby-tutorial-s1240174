@@ -1,0 +1,4 @@
+
+
+(1..10).each_with_index do |elem, idx|
+  puts "[#{idx}] #{elem}

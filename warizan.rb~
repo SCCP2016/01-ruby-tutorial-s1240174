@@ -2,6 +2,6 @@ a, b = STDIN.gets.split.map(&:to-i)
 
 d = a / b
 r = a % b
-f = a / b(&:to_f)
+f = 1.0*a / b
 
 puts d r f
